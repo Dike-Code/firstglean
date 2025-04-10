@@ -124,10 +124,14 @@ img {
 		max-width: 200px;
 	} */
 	.navbar li {
-		padding: 20px 0;
+		padding: 10px 0;
 	}
 
 	.btn-stretch {
+		width: 100%;
+	}
+
+	.card-btn {
 		width: 100%;
 	}
 }
