@@ -162,4 +162,10 @@ img {
 	.card-btn {
 		width: 100%;
 	}
+
+	.show-title {
+		text-align: center !important;
+		font-size: 40px;
+		font-weight: 800;
+	}
 }
