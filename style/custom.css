@@ -26,7 +26,7 @@ img {
 
 /* utilities */
 .logo {
-	width: 80px;
+	width: 70px;
 	height: 50px;
 }
 .overlay {
@@ -47,10 +47,22 @@ img {
 	background: #f8f9fa;
 }
 
-.hover:hover {
+.card-hover:hover {
 	background: #fff;
 	color: #000 !important;
 	transition: 0.5s ease;
+}
+
+.card-hoverSec:hover {
+	background: rgba(1, 38, 82, 0.68);
+	color: #fff !important;
+	transition: 0.5s ease;
+}
+
+.text-resizer {
+	max-width: 60%;
+	margin: auto;
+	font-weight: 300;
 }
 
 .bg-orz {
@@ -120,9 +132,16 @@ img {
 }
 
 @media (max-width: 768px) {
-	/* .imgg img {
-		max-width: 200px;
-	} */
+	.logo,
+	.footerLogo {
+		width: 50px;
+		height: 25px;
+	}
+
+	.text-resizer {
+		max-width: 100%;
+		margin: auto;
+	}
 	.navbar li {
 		padding: 10px 0;
 	}
