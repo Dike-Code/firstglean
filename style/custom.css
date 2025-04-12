@@ -138,6 +138,11 @@ img {
 		height: 25px;
 	}
 
+	.showcase {
+		position: relative;
+		padding-top: 100px !important;
+	}
+
 	.text-resizer {
 		max-width: 100%;
 		margin: auto;
