@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 }
@@ -19,12 +19,45 @@ body {
 	padding: 5rem 0;
 }
 
+.font-40 {
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.font-30 {
+	font-size: 30px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+.font-20 {
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+
+.font-16 {
+	font-size: 16px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	line-height: 30.5px;
+}
+
 img {
 	width: 100%;
 	height: 100%;
 }
 
 /* utilities */
+
+.highlighted {
+	background: #ba232e;
+	border-radius: 2px;
+}
+
+.highlighted .nav-link {
+	color: #fff;
+}
+
 .logo {
 	width: 70px;
 	height: 50px;
@@ -92,6 +125,36 @@ img {
 	padding: 0 20px;
 }
 
+.nav-items {
+	position: relative;
+}
+.nav-items::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	transition: 0.5s ease;
+	z-index: -1;
+	border: 0;
+}
+.nav-items:hover::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ba232e;
+	margin: 0 10px;
+	border-radius: 2px;
+}
+
+.nav-items:hover a {
+	color: #fff;
+}
+
 .showcase {
 	position: relative;
 	padding-top: 200px !important;
@@ -112,6 +175,17 @@ img {
 .slick-next:before {
 	color: #ba232e;
 	font-size: 20px;
+}
+
+.teamVid {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0 3px 10px #dbdbbd;
+}
+.teamVid video {
+	height: inherit;
 }
 
 .Testimonial {
@@ -140,6 +214,20 @@ img {
 	height: 100%;
 }
 
+@media (max-width: 820px) {
+	.navbar-nav {
+		margin: 3rem auto;
+	}
+
+	.navbar li {
+		margin: 20px 0;
+	}
+
+	.nav-items:hover::before {
+		margin: 0;
+	}
+}
+
 @media (max-width: 768px) {
 	.logo,
 	.footerLogo {
@@ -156,6 +244,13 @@ img {
 		max-width: 100%;
 		margin: auto;
 	}
+
+	.teamVid {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+
 	.navbar li {
 		padding: 10px 0;
 	}

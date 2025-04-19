@@ -15,10 +15,9 @@
 		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-			rel="stylesheet"
-		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -66,19 +65,19 @@
 
 				<div class="collapse navbar-collapse" id="navmenu">
 					<ul class="navbar-nav ms-auto text-center">
-						<li class="nav-item">
-							<a href="" class="nav-link">Home</a>
+						<li class="nav-item highlighted">
+							<a href="" class="nav-link nav-items">Home</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item  nav-items">
 							<a href="#about" class="nav-link">About us</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item nav-items">
 							<a href="#services" class="nav-link">What We Offer</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item nav-items">
 							<a href="#testimonials" class="nav-link">Testimonials</a>
 						</li>
-						<li class="nav-item call-to-action rounded bg-orz">
+						<li class="nav-item call-to-action rounded bg-orz mx-3">
 							<a href="" class="btn btn-lg nav-link w-100 px-sm-5 text-light"
 								>Chat Us</a
 							>
@@ -94,10 +93,10 @@
 				class="container d-lg-flex justify-content-between w-100 my-3 py-5 g-4"
 			>
 				<div class="show-content w-100 me-5" data-aos="fade" data-aos-duration="2000">
-					<h1 class="show-title text-start  my-4">
+					<h1 class="show-title text-start  my-4 font-40">
 						Say Goodbye to Toothaches – Naturally!
 					</h1>
-					<p class="show-desc my-4 lead my-5">
+					<p class="show-desc my-4 my-5 font-16">
 						Use and Press Solution: A Revolutionary Way to Massage
 						Your Gums and Relieve 90% of Tooth Problems.
 					</p>
@@ -114,6 +113,12 @@
 						<source src="./img/firstgleanBg.mp4" type="video/mp4" />
 						<source src="movie.ogg" type="video/ogg" />
 					</video>
+					<div class="ripple_contain">
+						<div class="ripple">
+							<i class="fas fa-play">
+							</i>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -132,11 +137,11 @@
 						/>
 					</div>
 					<div class="about-content w-100 ms-sm-5" data-aos="fade-up" data-aos-duration="2000">
-						<h3 class="about-title my-3 text-uppercase">
+						<h3 class="about-title my-3 text-uppercase font-30">
 							Who we are
 						</h3>
 
-						<p class="show-desc my-3 lead">
+						<p class="show-desc my-3 font-16">
 							First Glean is an enterprise company, incorporated
 							on the 28th of November 2013 under the Corporate
 							Affairs Commission with Registration number:
@@ -147,7 +152,7 @@
 							Company, It is a healthcare industry and a social
 							venture.
 						</p>
-						<p class="show-desc my-3 lead">
+						<p class="show-desc my-3 font-16">
 							We manufacture dental medicine and Tooth-Gum
 							Massager which is use to Massage the Tooth-Gum and
 							treats 89% of all kinds of Tooth Problems including
@@ -163,10 +168,10 @@
 		<section class="services px-sm-5 px-2 py-5 section" id="services">
 			<div class="container py-5">
 				<div class="service-content text-center" data-aos="fade-up" data-aos-duration="2000">
-					<h5 class="service-title my-4 text-uppercase">
+					<h5 class="service-title my-4 text-uppercase font-30">
 						Valued Services
 					</h5>
-					<h4 class="service-desc text-resizer my-4 text-uppercase m-auto font-weight-normal">
+					<h4 class="service-desc text-resizer my-4 text-uppercase m-auto font-weight-normal font-20">
 						Innovative oral care solutions designed to heal, protect, and uplift every smile.
 					</h4>
 				</div>
@@ -180,9 +185,9 @@
 								class="card-icon fas fa-tooth fa-3x text-start mb-4 px-3"
 							></i>
 							<div class="card-body">
-								<h4 class="card-title">Gum Therapy Revolution
+								<h4 class="card-title font-20">Gum Therapy Revolution
 								</h4>
-								<p class="card-text lead">
+								<p class="card-text font-16">
 									Treats 89% of tooth issues, including halitosis, with gentle gum massage therapy.
 								</p>
 								<a
@@ -199,8 +204,8 @@
 								class="card-icon fas fa-hand-point-up fa-3x text-start mb-4 px-3"
 							></i>
 							<div class="card-body">
-								<h4 class="card-title"> Use and Press Technology</h4>
-								<p class="card-text lead">
+								<h4 class="card-title font-20"> Use and Press Technology</h4>
+								<p class="card-text font-16">
 									Simple press-action tool designed for instant gum relief and improved oral hygiene.
 								</p>
 								<a
@@ -217,9 +222,9 @@
 								class="card-icon fas fa-box fa-3x text-start mb-4 px-3"
 							></i>
 							<div class="card-body">
-								<h4 class="card-title">All-in-One Dental Care</h4>
-								<p class="card-text lead">
-									Delivers gum massage, toothache relief, and fresh breath—all in one powerful, easy-to-use solution.
+								<h4 class="card-title font-20">All-in-One Dental Care</h4>
+								<p class="card-text font-16">
+									Delivers gum massage, toothache relief, and fresh breath—all in one easy-to-use solution.
 								</p>
 								<a
 						href=""
@@ -235,8 +240,8 @@
 								class="card-icon fas fa-certificate fa-3x text-start mb-4 px-3"
 							></i>
 							<div class="card-body">
-								<h4 class="card-title">Certified & Trusted</h4>
-								<p class="card-text lead">
+								<h4 class="card-title font-20">Certified & Trusted</h4>
+								<p class="card-text font-16">
 									NAFDAC-approved, trademarked, and quality-tested for safe, reliable dental care.
 								</p>
 								<a
@@ -253,8 +258,8 @@
 								class="card-icon fas fa-heart-pulse fa-3x text-start mb-4 px-3"
 							></i>
 							<div class="card-body">
-								<h4 class="card-title"> Toothache Relief Simplified</h4>
-								<p class="card-text lead">
+								<h4 class="card-title font-20"> Toothache Relief Simplified</h4>
+								<p class="card-text font-16">
 									A healthcare solution designed to improve smiles in underserved communities.
 								</p>
 								<a
@@ -273,9 +278,9 @@
 								class="card-icon fas fa-hands-helping fa-3x text-start mb-4 px-3"
 							></i>
 							<div class="card-body">
-								<h4 class="card-title">Socially Driven Healthcare</h4>
-								<p class="card-text lead">
-									We’re more than a brand—we’re a social venture bringing accessible oral care to communities in need.
+								<h4 class="card-title font-20">Socially Driven Healthcare</h4>
+								<p class="card-text font-16">
+									We’re more than a brand—we’re a social venture bringing oral care to communities.
 								</p>
 								<a
 						href=""
@@ -290,66 +295,66 @@
 		</section>
 		<!-- Service Ends -->
 		<section class="section w-100px-sm-5 px-2 py-5">
-			<div class="container py-5">
+			<div class="container py-5" data-aos="fade-down" data-aos-duration="1000">
 				<div class="prod-content">
-					<h5 class="service-title my-4 text-uppercase">
+					<h5 class="service-title my-4 text-uppercase font-30">
 						Our Product
 					</h5>
-					<h4 class="service-desc my-4 text-start text-uppercase text-resizer" style="margin:0;">
+					<h4 class="service-desc my-4 text-start text-uppercase text-resizer font-20" style="margin:0;">
 						Healthy Gums, Fresh Breath, Simply Pressed into Your Daily Routine for Lasting Oral
 					</h4>
 				</div>
 				<div class="slick-boxes">
 					<div class="box">
 						<img
-							src="./img/gleanShow.jpg"
+							src="./img/prdo_001.jpg"
 							class="img-fluid rounded-top"
 							alt=""
 						/>
 					</div>
 					<div class="box">
 						<img
-							src="./img/WhatsApp Image 2025-04-05 at 20.53.39_72136598.jpg"
+							src="./img/sld_img05.jpg"
 							class="img-fluid rounded-top"
 							alt=""
 						/>
 					</div>
 					<div class="box">
 						<img
-							src="./img/gleanShow.jpg"
+							src="./img/sld_img06.jpg"
 							class="img-fluid rounded-top"
 							alt=""
 						/>
 					</div>
 					<div class="box">
 						<img
-							src="./img/WhatsApp Image 2025-04-05 at 20.53.39_72136598.jpg"
+							src="./img/sld_img07.jpg"
 							class="img-fluid rounded-top"
 							alt=""
 						/>
 					</div>
 					<div class="box">
 						<img
-							src="./img/gleanShow.jpg"
-							class="img-fluid rounded-top"
-							alt=""
-						/>
-					</div>
-					<div class="box">
-						<img
-							src="./img/WhatsApp Image 2025-04-05 at 20.53.39_72136598.jpg"
+							src="./img/sld_img01.jpg"
 							class="img-fluid rounded-top"
 							alt=""
 						/>
 					</div>
 				</div>
+				<div class="videoContain w-100 teamVid rounded">
+					<video controls controlsList="nodownload" muted loop class="rounded w-100">
+						<source src="./img/firstGleanClip.mp4" type="video/mp4" />
+						<source src="movie.ogg" type="video/ogg" />
+					</video>
+				</div>
+				
 			</div>
 		</section>
 		<!-- Services Ends -->
 		<section class="Testimonial section px-sm-5 px-2 py-5" id="testimonials">
 			<div class="test-content text-center text-light">
-				<h5 class="test-title">Testimonial</h5>
-				<h3 class="test-title">Client Reviews</h3>
+				<h5 class="test-title font-20">Testimonial</h5>
+				<h3 class="test-title font-30">Client Reviews</h3>
 			</div>
 			<div class="container py-5">
 				<div class="row slick-card text-center">
@@ -363,8 +368,8 @@
 							/>
 							
 							<div class="card-body">
-								<h4 class="card-title">John Deo</h4>
-								<p class="card-text w-fit m-auto lead text-resizer">
+								<h4 class="card-title font-20">John Deo</h4>
+								<p class="card-text w-fit m-auto lead text-resizer font-16">
 									Honestly, I was at my wit's end with persistent gum issues and that embarrassing mouth odor. Since I started using the USE AND PRESS Tooth-Gum Massager, it's been a total game-changer! You can just feel it working, and it's such a relief. Knowing it's a Nigerian company, First Glean, with all the proper endorsements like NAFDAC, just gives you that extra peace of mind. Highly recommend!
 								</p>
 							</div>
@@ -379,8 +384,8 @@
 								style="width: 100px; height:100px; margin: auto; border-radius:50%;"
 							/>
 							<div class="card-body">
-								<h4 class="card-title">Sarah Doe</h4>
-								<p class="card-text lead text-resizer">
+								<h4 class="card-title font-20">Sarah Doe</h4>
+								<p class="card-text lead text-resizer font-16">
 									I've tried so many different things for my bad breath, and nothing really stuck. The USE AND PRESS Tooth-Gum Massager is different. It's easy to use, and I've genuinely noticed a huge improvement. Plus, knowing First Glean has been around since 2013 and has all the right registrations makes me trust the product even more. Definitely worth trying if you're looking for a real solution.
 								</p>
 							</div>
@@ -395,8 +400,8 @@
 								style="width: 100px; height:100px; margin: auto; border-radius:50%;"
 							/>
 							<div class="card-body">
-								<h4 class="card-title">Sarah Doe</h4>
-								<p class="card-text lead text-resizer">
+								<h4 class="card-title font-20">Sarah Doe</h4>
+								<p class="card-text lead text-resizer font-16">
 									For years, I thought I just had to live with sensitive gums. Then a friend told me about the USE AND PRESS Tooth-Gum Massager from First Glean. I was a bit skeptical at first, but wow! The difference is incredible. My gums feel so much healthier, and that freshness lasts. It's great to see a local healthcare company making such a positive impact.
 								</p>
 							</div>
@@ -407,79 +412,174 @@
 			<div class="overlay"></div>
 		</section>
 		<!-- testimonials ends -->
-		<!-- Team -->
-		<section class="team px-sm-5 px-2 py-5 section bg-dim-white">
+		<!--CoreValue -->
+		<section class="coreVlaue px-sm-5 px-2 py-5 section bg-dim-white">
 			<div class="container py-5">
-				<div class="team-content text-center">
-					<h5 class="team-title my-4 text-uppercase">
-						Our Team
-					</h5>
-					<h4 class="service-desc text-resizer my-4 text-uppercase m-auto">
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit. Tempora, odit!
-					</h4>
-				</div>
-
-				<div class="row text-center g-3">
-					<div class="col-lg-4">
-						<div
-							class="card text-start bg-navy hover text-light"
+					<div class="valueContent text-center">
+						<h5 class="valueTitle my-4 text-uppercase font-30">
+							Core Values
+						</h5>
+						<h4 class="valueDesc text-resizer my-4 text-uppercase m-auto font-weight-normal font-20">
+							Innovative oral care solutions designed to heal, protect, and uplift every smile.
+						</h4>
+					</div>
+					<div class="row text-center g-3">
+						<div class="col-lg-7">
+							<div
+								class="card text-start py-5 px-3 bg-navy card-hover hover text-light"
+							>
+								<i
+									class="card-icon fas fa-wallet fa-3x text-start mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Affordability
+									</h4>
+									<p class="card-text font-16">
+										Everyone deserves relief without the high cost. Our solutions are budget-friendly and accessible.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 show-btn card-btn py-2 text-light"
+							>Read More...</a
 						>
-						<img
-						src="./img/cofounder.jpg"
-						class="img-fluid rounded-top"
-						alt=""
-					/>
-							<div class="card-body px-3">
-								<h4 class="card-title">Adaora Nkem</h4>
-								<h6 class="card-sub-title">Staff</h6>
-								<p class="card-text lead">
-									Adaora is the brain behind our innovative "Use and Press Solution." With a background in biomedical engineering and a passion for oral health, she’s dedicated to transforming toothache treatment through science and empathy. She believes every smile deserves comfort—and she’s here to make it happen.
-								</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="card text-start">
-							<img
-								src="./img/mainFounder.png"
-								class="img-fluid rounded-top"
-								alt=""
-							/>
-							
-							<div class="card-body px-3">
-								<h4 class="card-title">Tunde Olayemi</h4>
-								<h6 class="card-sub-title">Founder & Visionary leader</h6>
-								<p class="card-text lead">
-									As the founder of FirstGlean, Tunde envisioned a world where toothaches don’t disrupt lives. Driven by personal experience and a relentless desire to innovate, they created the "Use and Press Solution"—a simple yet powerful tool that’s helping people reclaim their oral health.
-								</p>
+						<div class="col-lg-5">
+							<div
+								class="card text-start py-5 px-3 card-hoverSec hover"
+							>
+								<i
+									class="card-icon fas fa-bolt fa-3x text-start mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Effectiveness
+									</h4>
+									<p class="card-text font-16">
+										Proven to work, fast. Our solution targets the root of tooth pain with 90% success rates.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 show-btn card-btn py-2 text-light"
+							>Read More...</a
+						>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="card text-start">
-							<img
-						src="./img/founder.jpg"
-						class="img-fluid rounded-top"
-						alt=""
-					/>
-							<div class="card-body px-3">
-								<h4 class="card-title">Ivie Eromosele</h4>
-								<h6 class="card-sub-title">Staff</h6>
-								<p class="card-text lead">
-									is the friendly voice behind our brand, making sure our customers feel heard, supported, and valued. Whether it’s answering questions or collecting feedback, she bridges the gap between the people and the product—with genuine care and a big smile.
+						<div class="col-lg-5">
+							<div
+								class="card text-start py-5 px-3 card-hoverSec card-hover hover"
+							>
+								<i
+									class="card-icon fas fa-gem fa-3x text-start mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Quality
+									</h4>
+									<p class="card-text font-16">
+										From design to delivery, we maintain the highest standards in every product we create.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 show-btn card-btn py-2 text-light"
+							>Read More...</a
+						>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div
+								class="card text-start py-5 px-3 bg-navy card-hover hover text-light"
+							>
+								<i
+									class="card-icon fas fa-star fa-3x text-start mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Uniqueness
+									</h4>
+									<p class="card-text font-16">
+										No one does it like us. Our "Use and Press Solution" is a standout innovation in oral care and more.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 show-btn card-btn py-2 text-light"
+							>Read More...</a
+						>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div
+								class="card text-start py-5 px-3 bg-navy card-hover hover text-light"
+							>
+								<i
+									class="card-icon fas fa-leaf fa-3x text-start mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Mild
+									</h4>
+									<p class="card-text font-16">
+										Gentle yet effective as expected. Designed solution for sensitive gums and soothing comfort for you.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 show-btn card-btn py-2 text-light"
+							>Read More...</a
+						>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div
+								class="card text-start py-5 px-3 card-hoverSec hover"
+							>
+								<i
+									class="card-icon fas fa-handshake fa-3x text-start mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Trust
+									</h4>
+									<p class="card-text font-16">
+										Our customers count on us. We build lasting trust through results and real care.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 show-btn card-btn py-2 text-light"
+							>Read More...</a
+						>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div
+								class="card text-center py-5 px-3 card-hover bg-navy text-light hover"
+							>
+								<i
+									class="card-icon fas fa-truck fa-3x text-center mb-4 px-3"
+								></i>
+								<div class="card-body">
+									<h4 class="card-title font-20">Home Delivery
+									</h4>
+									<p class="card-text font-16">
+										Our customers count on us. We build lasting trust through results and real care.
+									</p>
+									<a
+							href=""
+							class="btn bg-orz px-5 w-100 card-btn py-2 text-light"
+							>Read More...</a
+						>
+								</div>
+							</div>
+						</div>
 
-								</p>
-							</div>
-						</div>
 					</div>
-				</div>
+					
 			</div>
 		</section>
 		<!-- Team Ends -->
 
 		<section class="FAQ section px-sm-5 px-2 py-5">
-			<div class="container py-5">
+			<div class="container py-5" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="0">
 				<div class="faq-content mb-3">
 					<h5 class="faq-title">Frequently Asked Questions</h5>
 					<h3>

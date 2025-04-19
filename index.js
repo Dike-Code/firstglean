@@ -40,4 +40,12 @@ $(document).ready(function () {
 	});
 });
 
-AOS.init();
+AOS.init({
+	offset: 50,
+	delay: 100,
+	duration: 600,
+	easing: "ease-in-out",
+	once: false,
+	mirror: false,
+	anchorPlacement: "bottom-top",
+});
