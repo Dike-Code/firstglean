@@ -50,15 +50,3 @@ wow = new WOW({
 	live: true, // default
 });
 wow.init();
-
-// const rippleContain = document.querySelector(".rippleContain");
-// const v = document.querySelector("video");
-// const view = document.querySelector(".view");
-
-// view.addEventListener("click", (e) => {
-// 	if ((e.target = "clicked")) {
-// 		rippleContain.remove();
-// 		v.setAttribute = "autoplay";
-// 	} else {
-// 	}
-// });
