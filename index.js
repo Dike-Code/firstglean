@@ -40,12 +40,25 @@ $(document).ready(function () {
 	});
 });
 
-AOS.init({
-	offset: 50,
-	delay: 100,
-	duration: 600,
-	easing: "ease-in-out",
-	once: false,
-	mirror: false,
-	anchorPlacement: "bottom-top",
+AOS.init();
+
+wow = new WOW({
+	boxClass: "wow", // default
+	animateClass: "animated", // default
+	offset: 20, // default
+	mobile: true, // default
+	live: true, // default
 });
+wow.init();
+
+// const rippleContain = document.querySelector(".rippleContain");
+// const v = document.querySelector("video");
+// const view = document.querySelector(".view");
+
+// view.addEventListener("click", (e) => {
+// 	if ((e.target = "clicked")) {
+// 		rippleContain.remove();
+// 		v.setAttribute = "autoplay";
+// 	} else {
+// 	}
+// });
