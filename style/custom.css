@@ -333,8 +333,8 @@ img {
 
 .bot {
 	position: fixed;
-	left: 10px;
-	bottom: 30%;
+	right: 10px;
+	bottom: 10%;
 	z-index: 4;
 }
 
