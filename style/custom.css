@@ -47,6 +47,12 @@ body {
 	font-weight: 200;
 	line-height: 30.5px;
 }
+.font-15 {
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
 
 img {
 	width: 100%;
@@ -125,7 +131,7 @@ img {
 	width: 50%;
 }
 .card-btn {
-	width: 60%;
+	width: 100%;
 }
 .show-btn:hover {
 	background: #ba232dde;
