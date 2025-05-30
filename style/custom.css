@@ -181,7 +181,14 @@ img {
 	background: url("../img/vision.png") center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	border: 0;
+	border-bottom-right-radius: 100px;
 }
+
+.showcase .overlay {
+	border-bottom-right-radius: 100px;
+}
+
 .showcase .container {
 	position: relative;
 	z-index: 2;
@@ -254,6 +261,7 @@ img {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	border-bottom-right-radius: 100px;
 }
 
 .aboutUsHero .container {
@@ -267,11 +275,16 @@ img {
 
 .aboutUsHero .overlay {
 	background: rgb(0, 0, 0, 0.5);
+	border-bottom-right-radius: 100px;
 }
 
 .aboutUsNav .home {
 	position: relative;
 	margin-right: 20px;
+}
+
+.contact {
+	border-top-left-radius: 100px;
 }
 
 @media (max-width: 820px) {
